@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+#background img{
+    width: 100%;
+}
+#backtext{
+    position: absolute;
+    left: 30px;
+    color: white;
+    top: 150px;
+}
+.text{
+    font-weight: bold;
+    font-size:80px;
+}
+
+
+.bi{
+    height: 300px;
+    width: 200px;
+}
+.bookb{
+    font-weight: bold;
+}
+.bookg{
+    color: grey;
+}
+.btn{
+    height: 30px;
+    background-color: blue;
+    margin-left: 200px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.btn img{
+    height: 20px;
+}
+#books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#games{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gi{
+    height: 300px;
+    width: 300px;
+}
+.paras{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+}
+#games2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+footer div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#logo{
+    height: 20px;
+    width: 100px;
+}
+#cart{
+    height: 20px;
+    width: 20px;
+}
+.btn1{
+    height: 30px;
+    background-color: blue;
+    margin-left: 100px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.btn1 img{
+    height: 20px;
+}
+#last{
+    position: relative;
+    left: 50px;
+}
+#lasts{
+    position: relative;
+    right: 50px;
+    top: 30px;
+}
+
+@media (max-width:768px){
+    .text{
+        font-weight: bold;
+        font-size:medium;
+    }
+}
