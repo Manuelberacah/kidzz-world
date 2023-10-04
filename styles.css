@@ -74,6 +74,7 @@ footer{
     background-color: black;
     color: white;
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 footer div img{
     height: 100px;
